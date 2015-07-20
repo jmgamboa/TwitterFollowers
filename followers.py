@@ -2,8 +2,8 @@ import tweepy
 import random
 
 # Set authorization tokens
-auth = tweepy.OAuthHandler(x, y)
-auth.set_access_token(x, y)
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
 # Instantiate Tweepy Module
 api = tweepy.API(auth)
 
